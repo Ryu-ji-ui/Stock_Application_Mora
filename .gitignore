@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+.pytest_cache/
+.mypy_cache/
+
+# Flask / app data
+instance/
+*.sqlite3
+*.db
+
+# Frontend
+frontend/node_modules/
+frontend/build/
+frontend/.eslintcache
+
+# Virtual environment copy in repo
+backend/virtualstk/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
