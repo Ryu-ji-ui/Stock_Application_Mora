@@ -81,10 +81,6 @@ The relational database (managed via SQLAlchemy) consists of the following core 
 5. **Watchlist**: Tracks user's favorite symbols.
 6. **StockData**: Caches historical price queries.
 
----
-
-## 🚀 API Endpoints Summary
-
 ### Auth Routes (`/api/auth`)
 - `POST /register` - Register a new user and generate OTP.
 - `POST /verify-otp` - Verify email and retrieve JWT.
